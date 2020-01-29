@@ -1,0 +1,15 @@
+{% for video in app1 %}
+
+
+<div class="video_entry">
+
+
+
+
+<h3><a>title: {{ video.title }}</a></h3>
+
+<h2 ><a>Roll: {{ video.embed_code | safe }}</a></h2 >
+
+</div>
+
+{% endfor %}
